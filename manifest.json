@@ -1,0 +1,26 @@
+{
+  "name": "AEGIS — Behavioral Security Suite",
+  "short_name": "AEGIS",
+  "description": "KeyPrint, LeakHunter, X-Ray and Sentinel: behavioral security that runs entirely on your device.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#040507",
+  "theme_color": "#040507",
+  "lang": "en",
+  "categories": ["security", "education", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "KeyPrint", "url": "/#keyprint", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "LeakHunter", "url": "/#leakhunter", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "X-Ray", "url": "/#xrayscan", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Sentinel", "url": "/#sentinel", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
